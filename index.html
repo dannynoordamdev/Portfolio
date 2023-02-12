@@ -12,28 +12,95 @@
     
 </head>
 <body>
-    <div class="firstSection">
-        <img src="images/danny noordam (1000 x 500 px)(1).svg" alt="Logo" width="350px">
+  
+    <img class="logo" src="images/logo.png" alt="Logo" width="350px">
+
+<header>
+
+    <div class="navbar">
+        <a class="active" href="#aboutme"><i class="fa fa-fw fa-home"></i> About me</a>
+        <a href="#projects"><i class="fa fa-fw fa-search"></i> Projects</a>
+        <a href="#contact"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+      </div>
+
+</header>
+
+    
+      
+    <div id="firstpart" class="firstSection">
         <h1>Hey Everyone, <br> I am Danny.</h1>
         <h1 class="secondH1">Also known as DannNorthDev.</h1>
-
+            <hr class="lineBreak">
 
     </div>
 
-    <div class="secondSection">
-        <h2>About me,<br></h2>
+    <div id="aboutme" class="secondSection">
+        <h2 class="secondsectionH2">About me,<br></h2>
         <p class="secondSectionP">I Am a Software Engineer Specialized in Java, HTML, CSS & React.</p>
 
 
     </div>
 
-    <div class="thirdSection">
-        <h2 class="thirdH2">Recent Projects,<br></h2>
-        <p class="thirdSectionP">I Am a Software Engineer Specialized in Java, HTML, CSS & React.</p>
+    <div id="projects" class="thirdSection">
+        <h2 class="thirdsectionH2">Recent Projects,<br></h2>
+        <p class="thirdSectionP">I've been working on a lot of web-projects, as well as some web applications coded in Java.</p>
+        <p class="thirdSectionP">Here are some of my repos:</p>
+        
+        <ul class="listprojectsection">
+            <li>
+                <p>Java Chatbot. 100% Java code.</p>
+                <div class="hidefunction">
+                    <label class="buttontoseecode" for=cb>View code</label>
+                    <input type='checkbox' style='display: none' id=cb>
+                    <div>
+                    <script src="https://gist.github.com/dannynoordamdev/8913c85b3bffc9b9df6bfa863f8ef2f3.js"></script>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <p>Banking application. Written in Java.</p>
+                
+            </li><li>
+                <p>Portfolio Website. Written in HTML, CSS, React & Node.JS.</p>
+                
+            </li>
+        </ul>
+       
+
+
+       
 
 
     </div>
 
+    <div id="contact" class="fourthSection">
+        <h2 class="fourthsectionH2">Curious about more?<br></h2>
+        <p class="fourthSectionP">Feel free to get in touch with me!</p>
+        <div class="container">
+            <form action="#">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="Your email..">
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div> 
+    </div>
+
+    <footer>
+        <p class="footertext">Copyright Danny Noordam, 2022. | Site still under construction.</p>
+        
+    </footer>
     
 
 </body>
