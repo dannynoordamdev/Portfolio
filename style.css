@@ -66,6 +66,7 @@ header{
 .logo{
     position: absolute;
     left: 0;
+    
 }
 
 
@@ -327,4 +328,14 @@ input:checked + div { display: none;
 
   .footertext{
     padding-top: 40px;
+  }
+
+
+  /*responsive*/
+
+  @media screen and (max-width: 600px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
   }
