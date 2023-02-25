@@ -3,9 +3,9 @@ scroll-behavior: smooth;
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
-    /*background-color: #142434; */
-    /* 93b8e1 = lighter color text*/
+  font-family: "apolline", serif;
+  font-weight: 700;
+  font-style: normal;
     background-color: white;
     height: 100%;
     padding: 0;
